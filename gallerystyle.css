@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.title{
+    font-weight: bold;
+    font-size: 100;
+    line-height: 0;
+    align-items: center;
+    margin: 50px;
+}
+body{
+    font-family: Poppins;
+    background-color: #848484;
+    color: white;
+    margin: 0;
+}
+header{
+    width: 1140px;
+    max-width: 80%;
+    margin: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header a{
+    margin-right: 40px;
+}
+/* ^^ HEADER / SETUP ^^ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+.container{
+    width: 100%;
+    /*min-height: 100vh;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+.gallery img{
+    width: 100%;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    size: 500px;
+    font-style: bold;
+    text-shadow: 0 5px 10px black;
+}
+h3{
+    letter-spacing: 10px;
+    text-align: center;
+    font-weight: bold;
+}
