@@ -1,19 +1,21 @@
 <html>
 <head>
     <link rel="stylesheet" href="articles.css">
+    <title>Articles Page</title>
  </head>
 <body>
      <header>
         <nav>
             <a href="index.html">Home</a>
             <a href="articles.html">Articles</a>
-            <a href="">Info</a>
+            <a href="404.html">Info</a>
         </nav>
+        <input type="text" id="search" placeholder="Search articles..." onkeyup="searchArticles()">
     </header>
-        <div class="header">Header</div>
+        <div class="header">This page contains all my subpage 'articles' with information and taste tests.</div>
         <div class="articles">
         <div class="test">
-            <div class="article">
+            <div class="article" onclick="window.location.href='M44Article.html'">
                 <img src="image/gallery-images/M44/M44_1.jpg" class="article-image" onclick="window.location.href='M44Gallery.html'">
                 <div class="article-content" onclick="window.location.href='M44Article.html'">
                     M44 Mess Kit
@@ -44,5 +46,6 @@
             
         </div>
         </div>
+        <script src="search.js"></script>
     </body>   
 </html>

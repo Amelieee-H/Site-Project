@@ -71,9 +71,20 @@ header a{
     align-items: flex-start;
     cursor: pointer;
 }
-
 p{
     padding: 0px;
     font-size: 15;
     margin: 0px;
+}
+.article:hover{
+    color: #848484;
+    background-color: white;
+    cursor: pointer;
+}
+header input[type="text"] {
+    font-family: poppins;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 4px;
+
 }
